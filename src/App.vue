@@ -50,37 +50,37 @@ export default {
       questions:[
           { 
           difficulty: 'easy',
-          question: 'How many stars in the galaxy',
-          answer: 2,
-          options:[
-              '2',
-              '9',
-              '8',
-              '10',
-          ],
-          selected:null
-          },
-          { 
-          difficulty: 'easy',
-          question: 'What is Vue Js?',
-          answer: 1,
-          options:[
-              'A pie',
-              'A Javascript Framework',
-              'A Refrigirator',
-              'An Internet Connection',
-          ],
-          selected:null
-          },
-          { 
-          difficulty: 'easy',
-          question: 'When is Luke Birthday?',
+          question: 'Which is the largest planet in the solar system?',
           answer: 3,
           options:[
-              'April 21, 2000',
-              'January 20, 2001',
-              'June 15, 2002',
-              'August 25, 2000',
+              'Mars',
+              'Venus',
+              'Saturn',
+              'Jupiter',
+          ],
+          selected:null
+          },
+          { 
+          difficulty: 'easy',
+          question: 'Which color is an emerald?',
+          answer: 1,
+          options:[
+              'Red',
+              'Green',
+              'Pink',
+              'Black',
+          ],
+          selected:null
+          },
+          { 
+          difficulty: 'easy',
+          question: 'Whose nose grew longer every time he lied?',
+          answer: 0,
+          options:[
+              'Pinocchio',
+              'Shrek',
+              'Spongebob',
+              'Cinderela',
           ],
           selected:null
           },
@@ -99,62 +99,74 @@ export default {
           // medium
           { 
           difficulty: 'medium',
-          question: 'What does “www” stand for in a website browser?',
-          answer: 3,
+          question: 'Which planet is known to have the most gravity?',
+          answer: 2,
           options:[
-              'World Wide Wwagon',
-              'World Wide Wings',
-              'World War Web',
-              'World Wide Web',
+              'Earth',
+              'Mars',
+              'Jupiter',
+              'Uranus',
           ],
           selected:null
           },
           { 
           difficulty: 'medium',
-          question: 'How long is an Olympic swimming pool (in meters)?',
+          question: 'How many bones are there in the human body?',
           answer: 0,
           options:[
-              '50 meters',
-              '30 meters',
-              '60 meters',
-              '55 meters',
+              '200',
+              '222',
+              '206',
+              '234',
           ],
           selected:null
           },
           { 
           difficulty: 'medium',
-          question: 'Which country do cities of Perth, Adelade & Brisbane belong to?',
-          answer: 1,
+          question: 'Which of the following is NOT a fruit?',
+          answer: 3,
           options:[
-              'India',
-              'Australia',
-              'US',
-              'Philippines',
+              'Banana',
+              'Avocados',
+              'Tomatoes',
+              'Rhubarb',
+          ],
+          selected:null
+          },
+          { 
+          difficulty: 'medium',
+          question: 'Which horoscope sign is a fish?',
+          answer: 2,
+          options:[
+              'Aquarius',
+              'Cancer',
+              'Pisces ',
+              'Virgo',
           ],
           selected:null
           },
           // hard
           { 
           difficulty: 'hard',
-          question: 'What is the name of the biggest technology company in South Korea??',
+          question: 'What is the strongest muscle in the human body?',
           answer: 2,
           options:[
-              'Cherry Mobile',
-              'Iphone',
-              'Samsung',
-              'Xiaomi',
+              'Jaw',
+              'Heart',
+              'Glutes',
+              'Hand',
           ],
           selected:null
           },
           { 
           difficulty: 'hard',
-          question: 'What is the rarest M&M color?',
-          answer: 3,
+          question: 'What is the largest active volcano in the world?',
+          answer: 2,
           options:[
-              'Red',
-              'Blue',
-              'Pink',
-              'Brown',
+              'Mount Vesuvius',
+              'Mount Etna',
+              'Mouna Loa',
+              'Mount Batur',
           ],
           selected:null
           },
@@ -167,6 +179,18 @@ export default {
               'Sprite',
               'Royal',
               'C2',
+          ],
+          selected:null
+          },
+          { 
+          difficulty: 'hard',
+          question: 'Which planet is the hottest?',
+          answer: 1,
+          options:[
+              'Saturn',
+              'Venus',
+              'Mercury',
+              'Mars',
           ],
           selected:null
           },

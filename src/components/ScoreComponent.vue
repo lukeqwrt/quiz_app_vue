@@ -10,7 +10,7 @@
                 <i :class="emoji" aria-role="presentation"></i>
             </h3>
 
-            <button @click="restartQuiz">Ulitin ang pag susulit</button>
+            <button @click="restartQuiz">Restart Quiz</button>
         </div>
     </div>
 </template>
@@ -31,14 +31,14 @@ export default {
     },
     mounted(){
         if(this.correctCount >= 3){
-            this.rank = 'hahaha galing'
+            this.rank = 'Good Job!!'
             this.emoji = 'em em-partying_face'
         }else if(this.correctCount >= 2){
-            this.rank = 'hahaha pwede na'
+            this.rank = 'Excellent!!'
             this.emoji = 'em em-ok_hand'
         }else if(this.correctCount < 2){
-            this.rank = 'bv hahaha'
-            this.emoji = 'em em-rolling_on_the_floor_laughing'
+            this.rank = 'Nice try!!'
+            this.emoji = 'em em-sweat_smile'
         }
     }
 }
